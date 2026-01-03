@@ -1,0 +1,18 @@
+title: Tereza Rýdlová Coaching
+email: [email]
+description: Výkon začíná v hlavě. Mentální trénink pro sportovce a profesionály.
+baseurl: "" 
+url: "https://www.terezarydlova.cz"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Custom Colors for Reference
+colors:
+  charcoal: "#2C2C2C"
+  taupe: "#8B7355"
+  forest: "#4A5D4F"
+  gold: "#B8956A"
+  off_white: "#F5F3F0"
