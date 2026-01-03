@@ -153,11 +153,21 @@ main, .navbar {
 footer {
   background: var(--charcoal);
   color: white;
-  padding: 5rem 5%;
+  padding: 4rem 20px;
   text-align: center;
-  font-size: 0.8rem;
   margin-top: 100px;
-  letter-spacing: 1px;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+.footer-content strong {
+  color: white;
+  font-weight: 600;
 }
 
 @media (max-width: 1024px) {
