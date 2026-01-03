@@ -6,24 +6,21 @@
   --off-white: #F5F3F0;
 }
 
-/* Global Reset & Spacing */
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--off-white);
   color: var(--charcoal);
   margin: 0;
   line-height: 1.6;
-  overflow-x: hidden; /* Fixes the horizontal 'play' on mobile */
+  overflow-x: hidden;
 }
 
-/* Container Width Control (FamilyHub Style) */
 main {
   max-width: 1200px; 
   margin: 0 auto;    
   padding: 0 20px;   
 }
 
-/* Navigation Styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -50,19 +47,17 @@ main {
   font-size: 0.9rem; 
 }
 
-/* Hero Section */
 .hero { 
   padding: 80px 10%; 
   background: var(--charcoal); 
   color: white; 
   text-align: center;
-  border-radius: 12px; /* Softens the look like FamilyHub cards */
+  border-radius: 12px;
   margin-top: 20px;
 }
 
 .hero h1 { font-size: 2.5rem; max-width: 800px; margin: 0 auto 2rem; }
 
-/* Buttons */
 .btn {
   background: var(--gold);
   color: white;
@@ -74,12 +69,11 @@ main {
   transition: opacity 0.3s;
 }
 
-/* 4-Step Cards Section */
 .steps-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  padding: 50px 0; /* Adjusted for centered main container */
+  padding: 50px 0;
 }
 
 .step-card {
@@ -104,7 +98,6 @@ main {
 .step-content { position: relative; z-index: 2; }
 .step-content h3 { color: var(--taupe); margin-bottom: 1rem; }
 
-/* Footer */
 footer {
   background: var(--charcoal);
   color: white;
@@ -114,7 +107,6 @@ footer {
   margin-top: 50px;
 }
 
-/* Mobile Responsive Fixes */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
