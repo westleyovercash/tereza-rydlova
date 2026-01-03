@@ -11,14 +11,14 @@
 
   <header>
     <nav class="navbar">
-  <div class="logo">TEREZA RÝDLOVÁ</div>
-  <ul class="nav-links">
-    <li><a href="{{ '/' | relative_url }}">Domů</a></li>
-    <li><a href="{{ '/about' | relative_url }}">O mně</a></li>
-    <li><a href="{{ '/sluzby' | relative_url }}">Služby</a></li>
-    <li><a href="{{ '/kontakt' | relative_url }}">Kontakt</a></li>
-  </ul>
-</nav>
+      <div class="logo">TEREZA RÝDLOVÁ</div>
+      <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}">Domů</a></li>
+        <li><a href="{{ '/about' | relative_url }}">O mně</a></li>
+        <li><a href="{{ '/sluzby' | relative_url }}">Služby</a></li>
+        <li><a href="{{ '/kontakt' | relative_url }}">Kontakt</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
@@ -26,12 +26,12 @@
   </main>
 
   <footer>
-  <div class="footer-content">
-    <p><strong>Tereza Rýdlová Certified Coach</strong> | Fakulta tělesné výchovy a sportu, Univerzita Karlova</p>
-    <p>Dodržuji globální etický kodex EMCC</p>
-    <p>&copy; 2026 Tereza Rýdlová Coaching. Všechna práva vyhrazena.</p>
-  </div>
-</footer>
+    <div class="footer-content">
+      <p><strong>Tereza Rýdlová Certified Coach</strong> | Fakulta tělesné výchovy a sportu, Univerzita Karlova</p>
+      <p>Dodržuji globální etický kodex EMCC</p>
+      <p>&copy; {{ "now" | date: "%Y" }} Tereza Rýdlová Coaching. Všechna práva vyhrazena.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
