@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root {
-  --charcoal: #2C2C2C;
+  --charcoal: #1B263B;
   --taupe: #8B7355;
-  --gold: #B8956A;
-  --off-white: #F5F3F0;
+  --gold: #D4AF37;
+  --off-white: #F8F9FA; 
 }
 
 body {
