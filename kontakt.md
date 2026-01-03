@@ -9,7 +9,7 @@ title: Kontakt
   
   <div style="background: white; padding: 40px; border-radius: 12px; display: inline-block; box-shadow: 0 10px 30px rgba(0,0,0,0.03); text-align: left; min-width: 320px;">
     <p style="margin: 0 0 5px 0; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #B8956A;">E-mail</p>
-    <p style="font-size: 1.1rem; margin: 0 0 25px 0;"><strong>tereza.rydlova@email.cz</strong></p>
+    <p style="font-size: 1.1rem; margin: 0 0 25px 0;"><strong>trydlova@seznam.cz.</strong></p>
     
     <hr style="border: 0; border-top: 1px solid #F5F3F0; margin: 25px 0;">
     
