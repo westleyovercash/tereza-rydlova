@@ -6,12 +6,16 @@
   --off-white: #F5F3F0;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: var(--off-white);
-  color: var(--charcoal);
-  margin: 0;
-  line-height: 1.6;
+main {
+  max-width: 1200px; /* Limits the width like the FamilyHub site */
+  margin: 0 auto;    /* Centers the content on the screen */
+  padding: 0 20px;   /* Adds a small buffer for smaller desktops */
+}
+
+.hero {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav {
