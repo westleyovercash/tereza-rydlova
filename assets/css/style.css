@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap');
+
 :root {
   --charcoal: #2C2C2C;
   --taupe: #8B7355;
-  --forest: #4A5D4F;
   --gold: #B8956A;
   --off-white: #F5F3F0;
 }
@@ -15,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+h1, h2, h3, .logo {
+  font-family: 'Playfair Display', serif;
+}
+
 main {
   max-width: 1200px; 
   margin: 0 auto;    
@@ -25,10 +30,16 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 5%;
-  background: white;
+  padding: 2rem 0;
+  background: transparent;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .nav-links { 
@@ -44,82 +55,91 @@ main {
   color: var(--charcoal); 
   font-weight: 600; 
   text-transform: uppercase; 
-  font-size: 0.9rem; 
+  font-size: 0.85rem; 
+  letter-spacing: 1px;
 }
 
 .hero { 
-  padding: 80px 10%; 
+  padding: 100px 10%; 
   background: var(--charcoal); 
   color: white; 
   text-align: center;
   border-radius: 12px;
-  margin-top: 20px;
 }
 
-.hero h1 { font-size: 2.5rem; max-width: 800px; margin: 0 auto 2rem; }
+.hero h1 { font-size: 3rem; margin-bottom: 2rem; }
 
 .btn {
   background: var(--gold);
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   text-decoration: none;
   display: inline-block;
   border-radius: 4px;
   font-weight: bold;
-  transition: opacity 0.3s;
+  transition: transform 0.2s;
 }
+
+.btn:hover { transform: translateY(-2px); }
 
 .steps-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 50px 0;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 60px 0;
 }
 
 .step-card {
   background: white;
-  padding: 40px 30px;
+  padding: 40px;
   border-radius: 12px;
   position: relative;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
 }
 
 .step-number {
   position: absolute;
   top: -10px;
   left: 10px;
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 900;
-  color: rgba(184, 149, 106, 0.1); 
+  color: rgba(184, 149, 106, 0.07); 
   z-index: 1;
 }
 
-.step-content { position: relative; z-index: 2; }
-.step-content h3 { color: var(--taupe); margin-bottom: 1rem; }
+.step-content h3 { 
+  color: var(--taupe); 
+  font-size: 1.5rem;
+  margin-bottom: 1rem; 
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin: 40px 0;
+}
+
+.service-item {
+  background: white;
+  padding: 20px;
+  border-left: 4px solid var(--gold);
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
 
 footer {
   background: var(--charcoal);
   color: white;
-  padding: 3rem 5%;
+  padding: 4rem 5%;
   text-align: center;
-  font-size: 0.8rem;
-  margin-top: 50px;
+  font-size: 0.85rem;
+  margin-top: 80px;
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    padding: 1rem;
-  }
-  
-  .nav-links {
-    gap: 15px;
-    font-size: 0.8rem;
-    flex-wrap: wrap; 
-    justify-content: center;
-    margin-top: 15px;
-  }
-  
-  .hero h1 { font-size: 1.8rem; }
+  .navbar { flex-direction: column; padding: 1.5rem; }
+  .nav-links { gap: 1rem; margin-top: 1.5rem; }
+  .hero h1 { font-size: 2rem; }
 }
