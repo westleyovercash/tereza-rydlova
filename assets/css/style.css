@@ -1,0 +1,77 @@
+:root {
+  --charcoal: #2C2C2C;
+  --taupe: #8B7355;
+  --forest: #4A5D4F;
+  --gold: #B8956A;
+  --off-white: #F5F3F0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--off-white);
+  color: var(--charcoal);
+  margin: 0;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5%;
+  background: white;
+}
+
+nav ul { display: flex; list-style: none; gap: 2rem; }
+nav a { text-decoration: none; color: var(--charcoal); font-weight: 600; text-transform: uppercase; font-size: 0.9rem; }
+
+.hero { padding: 100px 10%; background: var(--charcoal); color: white; text-align: center; }
+.hero h1 { font-size: 2.5rem; max-width: 800px; margin: 0 auto 2rem; }
+
+.btn {
+  background: var(--gold);
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+/* 4-Step Cards Section */
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 50px 5%;
+}
+
+.step-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.step-number {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 8rem;
+  font-weight: 900;
+  color: rgba(184, 149, 106, 0.1); /* Gold at low opacity */
+  z-index: 1;
+}
+
+.step-content { position: relative; z-index: 2; }
+.step-content h3 { color: var(--taupe); margin-bottom: 1rem; }
+
+footer {
+  background: var(--charcoal);
+  color: white;
+  padding: 3rem 5%;
+  text-align: center;
+  font-size: 0.8rem;
+}
