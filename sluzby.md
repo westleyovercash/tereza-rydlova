@@ -10,7 +10,7 @@ title: Služby
   <p>Moje práce vychází ze sportovní přípravy a tréninkové praxe a přenáší se do mentálních procesů, které určují, zda se vaše schopnosti skutečně projeví ve výsledku—ve sportu, ve vedení lidí, v náročném profesním prostředí.</p>
   
   <p>Zaměřujeme se na:</p>
-  <ul>
+  <ul class="arrow-list">
     <li>stabilitu pod tlakem</li>
     <li>regulaci pozornosti a soustředění</li>
     <li>vnitřní dialog v náročných situacích</li>
@@ -22,9 +22,9 @@ title: Služby
   <p>Cílem není intenzita sama o sobě. Cílem je jasnost, stabilita a vědomá kontrola vnitřních procesů, které se propojují s vaší fyzickou, technickou i profesní přípravou.</p>
 </section>
 
-<section class="content-section">
+<section class="approach-section">
   <h2>Formáty</h2>
-  <ul>
+  <ul class="arrow-list">
     <li>individuální koučink 1:1</li>
     <li>převážně osobně v Praze</li>
     <li>online sezení po zahájení spolupráce</li>
@@ -32,8 +32,14 @@ title: Služby
     <li>nebo strukturovaná dlouhodobá spolupráce</li>
   </ul>
   
-  <p><strong>Sezení:</strong> 60 až 90 minut</p>
-  <p><strong>Frekvence:</strong> podle sezóny, zátěže a výkonového kontextu</p>
+  <div class="info-grid">
+    <div class="info-item">
+      <strong>Sezení:</strong> 60 až 90 minut
+    </div>
+    <div class="info-item">
+      <strong>Frekvence:</strong> podle sezóny, zátěže a výkonového kontextu
+    </div>
+  </div>
   
   <p>Úvodní rozhovor nám pomůže zjistit, zda je koučink pro vaši situaci vhodný.</p>
 </section>
@@ -41,7 +47,7 @@ title: Služby
 <section class="content-section">
   <h2>Investice</h2>
   <p>Výše investice závisí na:</p>
-  <ul>
+  <ul class="arrow-list">
     <li>rozsahu spolupráce</li>
     <li>frekvenci sezení</li>
     <li>výkonových nárocích a kontextu—sportovním či profesním</li>
