@@ -1,130 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root {
-  --pearl-light: #F8F9FA;
-  --pearl-shimmer: #E9ECEF;
-  --champagne: #C5A059; /* Muted Champagne Gold */
-  --slate: #4A4E69;     /* Soft neutral for text depth */
-  --charcoal: #22223B;  /* Deep neutral for high contrast text */
-  --glass: rgba(255, 255, 255, 0.7);
+  --pearl-white: #FBFBFB;
+  --champagne: #C5A059; 
+  --slate: #4A4E69;     
+  --charcoal: #22223B;  
+  --glass: rgba(255, 255, 255, 0.8);
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--pearl-light);
+  background-color: var(--pearl-white);
   color: var(--charcoal);
   margin: 0;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
+  line-height: 1.8;
 }
 
-/* Luminous Pearlescent Hero */
-.hero { 
-  padding: 140px 10%; 
-  background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 50%, #DEE2E6 100%);
-  color: var(--charcoal); 
-  text-align: center;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-}
-
-.hero h1 { 
-  font-size: 3.8rem; 
-  margin-bottom: 2rem; 
-  color: var(--charcoal);
-  letter-spacing: -1px;
-}
-
-.hero p { 
-  font-weight: 400; 
-  font-size: 1.15rem; 
-  max-width: 750px; 
-  margin: 0 auto; 
-  color: var(--slate);
-}
-
-.navbar {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 20px;
-}
-
-.logo, .nav-links a {
-  color: var(--charcoal);
-  text-decoration: none;
-  font-size: 0.75rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-/* Glassmorphic Step Cards */
-.steps-wrapper {
-  background: white; /* Clean break from hero */
-  padding: 100px 0;
-}
-
-.steps-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+/* Tighter Container for all pages */
+.container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/* Fixed Navigation Menu */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none; /* Removes bullets */
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--charcoal);
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover { color: var(--champagne); }
+
+/* Pearlescent Hero - No longer full width, focused in center */
+.hero { 
+  padding: 120px 10%; 
+  background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);
+  text-align: center;
+  border-radius: 8px; /* Slight roundness for elegance */
+  margin-top: 20px;
+}
+
+.hero h1 { font-size: 3.5rem; margin-bottom: 1.5rem; color: var(--charcoal); }
+.hero p { font-size: 1.1rem; max-width: 700px; margin: 0 auto; color: var(--slate); }
+
+/* Step Cards with Large Background Numbers */
+.steps-wrapper { padding: 100px 0; background: white; }
+
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
 .step-card {
-  background: var(--glass);
-  backdrop-filter: blur(10px);
-  padding: 45px 25px;
+  background: var(--pearl-white);
+  padding: 50px 30px;
   border-radius: 4px;
-  border: 1px solid rgba(255,255,255,0.5);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
-  transition: all 0.4s ease;
+  position: relative; /* Required for background number */
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+  transition: transform 0.3s ease;
 }
 
-.step-card:hover {
-  transform: translateY(-8px);
-  background: white;
-  box-shadow: 0 20px 40px rgba(197, 160, 89, 0.1); /* Champagne glow */
+.step-card:hover { transform: translateY(-5px); }
+
+.step-number {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 7rem;
+  font-weight: 700;
+  color: rgba(197, 160, 89, 0.07); /* Very faint champagne */
+  z-index: 1;
 }
 
-.step-content h3 { 
-  color: var(--champagne); 
-  font-size: 0.8rem;
-  margin-bottom: 1rem; 
-}
+.step-content { position: relative; z-index: 2; }
+.step-content h3 { color: var(--champagne); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 15px; }
 
+/* Buttons */
 .btn {
   background: var(--champagne);
   color: white;
-  padding: 1.2rem 3.5rem;
+  padding: 1rem 3rem;
   text-decoration: none;
   display: inline-block;
-  border-radius: 2px;
   font-weight: 600;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 3rem;
-  transition: all 0.3s ease;
+  margin-top: 2rem;
+  transition: background 0.3s ease;
 }
 
-.btn:hover {
-  background: var(--charcoal);
-  transform: scale(1.02);
-}
+.btn:hover { background: var(--charcoal); }
 
-.testimonial-section {
-  background-color: #F1F3F5; /* Softest neutral possible */
-  padding: 100px 10%;
-}
+/* General Page Styling (Services/About) */
+.page-content { padding: 80px 0; }
+.page-content h2 { margin-bottom: 30px; font-family: 'Playfair Display', serif; }
 
-footer {
-  background: var(--charcoal);
-  color: white;
-  padding: 5rem 20px;
-  text-align: center;
+footer { background: var(--charcoal); color: white; padding: 4rem 0; text-align: center; margin-top: 60px; }
+
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.5rem; }
+  .nav-links { flex-direction: column; gap: 1rem; text-align: center; }
 }
