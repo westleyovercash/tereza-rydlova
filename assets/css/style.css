@@ -8,8 +8,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    color: #2d2d2d;
-    background: #fafafa;
+    color: #22223B;
+    background: #FBFBFB;
 }
 
 .container {
@@ -20,10 +20,10 @@ body {
 
 /* === HEADER === */
 header {
-    background: #2d2d2d;
+    background: #22223B;
     color: #fff;
     padding: 1.5rem 0;
-    border-bottom: 3px solid #3d5a4c;
+    border-bottom: 3px solid #C5A059;
 }
 
 .site-title {
@@ -45,7 +45,7 @@ nav {
 }
 
 nav a {
-    color: #b8986b;
+    color: #C5A059;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
@@ -74,14 +74,14 @@ main {
 
 .hero h1 {
     font-size: 2.5rem;
-    color: #2d2d2d;
+    color: #22223B;
     margin-bottom: 1.5rem;
     font-weight: 700;
 }
 
 .hero-text {
     font-size: 1.1rem;
-    color: #4a4a4a;
+    color: #4A4E69;
     max-width: 800px;
     margin: 0 auto 2rem;
     line-height: 1.8;
@@ -98,28 +98,28 @@ main {
 
 .content-section h1 {
     font-size: 2.2rem;
-    color: #2d2d2d;
+    color: #22223B;
     margin-bottom: 2rem;
     font-weight: 700;
 }
 
 .content-section h2 {
     font-size: 1.6rem;
-    color: #3d5a4c;
+    color: #4A4E69;
     margin: 2rem 0 1rem;
     font-weight: 600;
 }
 
 .content-section p {
     margin-bottom: 1rem;
-    color: #4a4a4a;
+    color: #4A4E69;
     line-height: 1.8;
 }
 
 .content-section ul,
 .content-section ol {
     margin: 1rem 0 1rem 2rem;
-    color: #4a4a4a;
+    color: #4A4E69;
 }
 
 .content-section li {
@@ -127,7 +127,7 @@ main {
     line-height: 1.7;
 }
 
-/* === HOW IT WORKS (4-STEP CARDS) === */
+/* === HOW IT WORKS (4-STEP CARDS WITH WATERMARK) === */
 .how-it-works {
     background: #fff;
     padding: 3rem 2.5rem;
@@ -139,23 +139,25 @@ main {
 .how-it-works h2 {
     text-align: center;
     font-size: 2rem;
-    color: #2d2d2d;
+    color: #22223B;
     margin-bottom: 3rem;
     font-weight: 700;
 }
 
 .steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
 }
 
 .step {
-    background: #f5f5f5;
+    background: rgba(255, 255, 255, 0.8);
     padding: 2rem 1.5rem;
     border-radius: 8px;
-    border-top: 4px solid #b8986b;
+    border-top: 4px solid #C5A059;
     transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
 }
 
 .step:hover {
@@ -164,30 +166,32 @@ main {
 }
 
 .step-number {
-    display: inline-block;
-    background: #3d5a4c;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 6rem;
+    font-weight: 900;
+    color: rgba(197, 160, 89, 0.15);
+    line-height: 1;
+    z-index: 0;
+    user-select: none;
 }
 
 .step h3 {
-    font-size: 1.2rem;
-    color: #2d2d2d;
+    font-size: 1.1rem;
+    color: #22223B;
     margin-bottom: 0.75rem;
     font-weight: 600;
+    position: relative;
+    z-index: 1;
 }
 
 .step p {
-    color: #4a4a4a;
+    color: #4A4E69;
     line-height: 1.7;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 1;
 }
 
 /* === TESTIMONIALS === */
@@ -202,16 +206,16 @@ main {
 .testimonials h2 {
     text-align: center;
     font-size: 2rem;
-    color: #2d2d2d;
+    color: #22223B;
     margin-bottom: 3rem;
     font-weight: 700;
 }
 
 .testimonial {
-    background: #f5f5f5;
+    background: rgba(255, 255, 255, 0.8);
     padding: 2rem;
     margin-bottom: 1.5rem;
-    border-left: 4px solid #3d5a4c;
+    border-left: 4px solid #C5A059;
     border-radius: 4px;
 }
 
@@ -221,14 +225,14 @@ main {
 
 .quote {
     font-size: 1.05rem;
-    color: #2d2d2d;
+    color: #22223B;
     line-height: 1.8;
     font-style: italic;
     margin-bottom: 1rem;
 }
 
 .attribution {
-    color: #8b7e74;
+    color: #4A4E69;
     font-weight: 600;
     font-size: 0.95rem;
 }
@@ -236,7 +240,7 @@ main {
 /* === BUTTONS === */
 .cta-button {
     display: inline-block;
-    background: #3d5a4c;
+    background: #4A4E69;
     color: #fff;
     padding: 1rem 2.5rem;
     border-radius: 4px;
@@ -248,14 +252,14 @@ main {
 }
 
 .cta-button:hover {
-    background: #2d4439;
+    background: #22223B;
     transform: translateY(-2px);
 }
 
 /* === FOOTER === */
 footer {
-    background: #2d2d2d;
-    color: #8b7e74;
+    background: #22223B;
+    color: #C5A059;
     text-align: center;
     padding: 2rem 0;
     margin-top: 4rem;
@@ -266,6 +270,12 @@ footer p {
 }
 
 /* === RESPONSIVE === */
+@media (max-width: 1024px) {
+    .steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
@@ -290,5 +300,11 @@ footer p {
     .how-it-works,
     .testimonials {
         padding: 2rem 1.5rem;
+    }
+    
+    .step-number {
+        font-size: 4rem;
+        top: 5px;
+        right: 10px;
     }
 }
