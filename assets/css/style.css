@@ -1,126 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500&display=swap');
 
 :root {
-  --pearl-white: #FBFBFB;
+  --pearl: #FBFBFB;
   --champagne: #C5A059; 
-  --slate: #4A4E69;     
-  --charcoal: #22223B;  
-  --glass: rgba(255, 255, 255, 0.8);
+  --charcoal: #22223B;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--pearl-white);
+  background-color: var(--pearl);
   color: var(--charcoal);
   margin: 0;
   line-height: 1.8;
+  font-weight: 300;
 }
 
-/* Tighter Container for all pages */
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+.container { max-width: 1100px; margin: 0 auto; padding: 0 25px; }
 
-/* Fixed Navigation Menu */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2.5rem 0;
-}
+/* Navigation */
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 2.5rem 0; }
+.nav-links { display: flex; list-style: none; gap: 3rem; margin: 0; padding: 0; }
+.nav-links a { text-decoration: none; color: var(--charcoal); font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 500; }
 
-.nav-links {
-  display: flex;
-  list-style: none; /* Removes bullets */
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: var(--charcoal);
-  font-size: 0.75rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover { color: var(--champagne); }
-
-/* Pearlescent Hero - No longer full width, focused in center */
-.hero { 
-  padding: 120px 10%; 
-  background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);
-  text-align: center;
-  border-radius: 8px; /* Slight roundness for elegance */
-  margin-top: 20px;
-}
-
-.hero h1 { font-size: 3.5rem; margin-bottom: 1.5rem; color: var(--charcoal); }
-.hero p { font-size: 1.1rem; max-width: 700px; margin: 0 auto; color: var(--slate); }
-
-/* Step Cards with Large Background Numbers */
-.steps-wrapper { padding: 100px 0; background: white; }
-
-.steps-container {
+/* Grid Systems */
+.steps-container, .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
+  margin: 50px 0;
 }
 
-.step-card {
-  background: var(--pearl-white);
-  padding: 50px 30px;
+.step-card, .service-item {
+  background: white;
+  padding: 45px 30px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
   border-radius: 4px;
-  position: relative; /* Required for background number */
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.02);
-  transition: transform 0.3s ease;
 }
 
-.step-card:hover { transform: translateY(-5px); }
+.service-item { border-left: 4px solid var(--champagne); }
 
 .step-number {
-  position: absolute;
-  top: -10px;
-  left: 10px;
-  font-size: 7rem;
-  font-weight: 700;
-  color: rgba(197, 160, 89, 0.07); /* Very faint champagne */
-  z-index: 1;
+  position: absolute; top: -15px; left: 10px;
+  font-size: 7rem; font-weight: 700; color: rgba(197, 160, 89, 0.08);
 }
 
-.step-content { position: relative; z-index: 2; }
-.step-content h3 { color: var(--champagne); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 15px; }
+.btn { background: var(--champagne); color: white; padding: 1.2rem 3rem; text-decoration: none; display: inline-block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; font-weight: 500; border: none; cursor: pointer; }
 
-/* Buttons */
-.btn {
-  background: var(--champagne);
-  color: white;
-  padding: 1rem 3rem;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: 600;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 2rem;
-  transition: background 0.3s ease;
-}
-
-.btn:hover { background: var(--charcoal); }
-
-/* General Page Styling (Services/About) */
-.page-content { padding: 80px 0; }
-.page-content h2 { margin-bottom: 30px; font-family: 'Playfair Display', serif; }
-
-footer { background: var(--charcoal); color: white; padding: 4rem 0; text-align: center; margin-top: 60px; }
-
-@media (max-width: 768px) {
-  .hero h1 { font-size: 2.5rem; }
-  .nav-links { flex-direction: column; gap: 1rem; text-align: center; }
-}
+/* About Page Layout */
+.about-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: start; padding: 60px 0; }
+@media (max-width: 800px) { .about-grid { grid-template-columns: 1fr; } }
