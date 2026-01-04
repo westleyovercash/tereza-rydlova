@@ -3,8 +3,8 @@
 :root {
   --pearl-white: #FBFBFB;
   --champagne: #C5A059; 
-  --slate: #4A4E69;     
-  --charcoal: #22223B;  
+  --slate: #4A4E69;      
+  --charcoal: #22223B;   
   --glass: rgba(255, 255, 255, 0.8);
 }
 
@@ -16,14 +16,12 @@ body {
   line-height: 1.8;
 }
 
-/* Tighter Container for all pages */
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Fixed Navigation Menu */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -33,10 +31,14 @@ body {
 
 .nav-links {
   display: flex;
-  list-style: none; /* Removes bullets */
+  list-style: none;
   gap: 2rem;
   margin: 0;
   padding: 0;
+}
+
+.nav-links li {
+  list-style: none;
 }
 
 .nav-links a {
@@ -49,22 +51,35 @@ body {
   transition: color 0.3s ease;
 }
 
-.nav-links a:hover { color: var(--champagne); }
+.nav-links a:hover { 
+  color: var(--champagne); 
+}
 
-/* Pearlescent Hero - No longer full width, focused in center */
 .hero { 
   padding: 120px 10%; 
   background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);
   text-align: center;
-  border-radius: 8px; /* Slight roundness for elegance */
+  border-radius: 8px;
   margin-top: 20px;
 }
 
-.hero h1 { font-size: 3.5rem; margin-bottom: 1.5rem; color: var(--charcoal); }
-.hero p { font-size: 1.1rem; max-width: 700px; margin: 0 auto; color: var(--slate); }
+.hero h1 { 
+  font-size: 3.5rem; 
+  margin-bottom: 1.5rem; 
+  color: var(--charcoal); 
+}
 
-/* Step Cards with Large Background Numbers */
-.steps-wrapper { padding: 100px 0; background: white; }
+.hero p { 
+  font-size: 1.1rem; 
+  max-width: 700px; 
+  margin: 0 auto; 
+  color: var(--slate); 
+}
+
+.steps-wrapper { 
+  padding: 100px 0; 
+  background: white; 
+}
 
 .steps-container {
   display: grid;
@@ -76,28 +91,40 @@ body {
   background: var(--pearl-white);
   padding: 50px 30px;
   border-radius: 4px;
-  position: relative; /* Required for background number */
+  position: relative;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.02);
   transition: transform 0.3s ease;
 }
 
-.step-card:hover { transform: translateY(-5px); }
+.step-card:hover { 
+  transform: translateY(-5px); 
+}
 
 .step-number {
   position: absolute;
-  top: -10px;
-  left: 10px;
-  font-size: 7rem;
+  top: -20px;
+  left: -10px;
+  font-size: 10rem;
   font-weight: 700;
-  color: rgba(197, 160, 89, 0.07); /* Very faint champagne */
+  color: rgba(197, 160, 89, 0.08);
   z-index: 1;
+  line-height: 1;
+  pointer-events: none;
 }
 
-.step-content { position: relative; z-index: 2; }
-.step-content h3 { color: var(--champagne); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 15px; }
+.step-content { 
+  position: relative; 
+  z-index: 2; 
+}
 
-/* Buttons */
+.step-content h3 { 
+  color: var(--champagne); 
+  font-size: 0.85rem; 
+  text-transform: uppercase; 
+  margin-bottom: 15px; 
+}
+
 .btn {
   background: var(--champagne);
   color: white;
@@ -112,15 +139,32 @@ body {
   transition: background 0.3s ease;
 }
 
-.btn:hover { background: var(--charcoal); }
+.btn:hover { 
+  background: var(--charcoal); 
+}
 
-/* General Page Styling (Services/About) */
-.page-content { padding: 80px 0; }
-.page-content h2 { margin-bottom: 30px; font-family: 'Playfair Display', serif; }
+.page-content { 
+  padding: 80px 0; 
+}
 
-footer { background: var(--charcoal); color: white; padding: 4rem 0; text-align: center; margin-top: 60px; }
+.page-content h2 { 
+  margin-bottom: 30px; 
+  font-family: 'Playfair Display', serif; 
+}
+
+footer { 
+  background: var(--charcoal); 
+  color: white; 
+  padding: 4rem 0; 
+  text-align: center; 
+  margin-top: 60px; 
+}
 
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.5rem; }
-  .nav-links { flex-direction: column; gap: 1rem; text-align: center; }
+  .nav-links { 
+    flex-direction: column; 
+    gap: 1rem; 
+    text-align: center; 
+  }
 }
