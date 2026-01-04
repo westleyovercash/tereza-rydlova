@@ -458,6 +458,33 @@ main {
     }
 }
 
+/* === INFO GRID (for Služby page) === */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.info-item {
+    background: rgba(197, 160, 89, 0.1);
+    padding: 1.25rem;
+    border-radius: 6px;
+    border-left: 3px solid #C5A059;
+}
+
+.info-item strong {
+    color: #22223B;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+@media (max-width: 768px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* === FOOTER === */
 footer {
     background: #4A4E69;
