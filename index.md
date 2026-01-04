@@ -5,9 +5,7 @@ title: Domů
 
 <section class="hero">
   <h1>Výkon začíná v hlavě.</h1>
-  <p class="hero-text">Tělo můžete posouvat na hranici možností a dovednosti opakovat tak dlouho, až se stanou automatické. Ve chvíli, kdy se zvýší tlak a rozhoduje se o výsledku, nakonec o všem rozhoduje mysl. Tehdy se ukáže, jestli se vaše práce skutečně promítne do výkonu.</p>
-  <p class="hero-text">Pracuji se sportovci, lídry a profesionály, jejichž výkon je vidět a je pod drobnohledem okolí. Každý z nich přichází z jiného prostředí, ale zkušenost bývá podobná. Někdy mysl schopnosti podpoří, jindy je spíš tiše brzdí.</p>
-  <p class="hero-text">Nejde o větší úsilí ani o silnější motivaci. Mentální procesy je možné trénovat cíleně a s podobnou pečlivostí, jaká se věnuje fyzické přípravě.</p>
+  <p class="hero-text">Tělo můžete posouvat na hranici možností a dovednosti opakovat tak dlouho, až se stanou automatické. Ve chvíli, kdy se zvýší tlak a rozhoduje se o výsledku, rozhoduje mysl. Pracuji se sportovci, lídry a profesionály na mentálních procesech, které určují, jestli se jejich práce skutečně promítne do výkonu.</p>
   <a href="/kontakt" class="cta-button">Začít spolupráci</a>
 </section>
 
@@ -15,7 +13,7 @@ title: Domů
   <h2>S kým pracuji</h2>
   <p>Někteří klienti se připravují na soutěžní sezónu. Jiní vedou tým a nesou odpovědnost za rozhodování v náročných situacích. Další podávají dobrý výkon, ale vnímají, že část jejich potenciálu se do výsledku zatím plně nepromítá.</p>
   <p>Hledají stabilitu v okamžicích, kdy rostou nároky. Chtějí zůstat přítomní i ve chvíli chyby. Chtějí, aby se jejich schopnosti objevily právě tehdy, kdy na nich záleží.</p>
-  <p>Tam naše práce začíná.</p>
+  <p>Mentální procesy je možné trénovat cíleně a s podobnou pečlivostí, jaká se věnuje fyzické přípravě. Tam naše práce začíná.</p>
 </section>
 
 <section class="how-it-works">
@@ -48,7 +46,7 @@ title: Domů
   </div>
 </section>
 
-<section class="content-section">
+<section class="closing-section">
   <p>Pokrok nepřichází vždy z vyšší zátěže nebo větší intenzity. Někdy přichází ve chvíli, kdy se mentální příprava sladí se schopnostmi a práce, kterou máte za sebou, se projeví v rozhodujícím momentu.</p>
   <p>Když se zklidní pozornost a jednání se sjednotí se záměrem, výsledky bývají stabilnější a změna zůstává.</p>
   <a href="/kontakt" class="cta-button">Začít spolupráci</a>
