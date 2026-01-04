@@ -4,11 +4,9 @@ description: Výkon začíná v hlavě. Mentální trénink pro sportovce a prof
 baseurl: "" 
 url: "https://www.terezarydlova.cz"
 
-# Build settings - Removed theme: minima to stop overrides
 plugins:
   - jekyll-feed
 
-# Custom Colors for Reference
 colors:
   navy: "#1B263B"
   taupe: "#8B7355"
