@@ -327,6 +327,135 @@ main {
     box-shadow: 0 4px 12px rgba(74, 78, 105, 0.4);
 }
 
+/* === ABOUT PAGE === */
+
+/* About Hero */
+.about-hero {
+    background: linear-gradient(135deg, #4A4E69 0%, #22223B 100%);
+    color: #fff;
+    padding: 4rem 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.about-hero-content {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 3rem;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-hero-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #C5A059;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.about-hero-text h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+/* Approach Section - Tinted Background */
+.approach-section {
+    background: linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);
+    padding: 3rem 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-top: 2px solid #C5A059;
+}
+
+.approach-section h2 {
+    font-size: 1.8rem;
+    color: #4A4E69;
+    margin: 0 0 1.5rem 0;
+    font-weight: 600;
+}
+
+.approach-section p {
+    margin-bottom: 1rem;
+    color: #4A4E69;
+    line-height: 1.8;
+}
+
+/* Pull Quote */
+.pullquote {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #22223B;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-left: 4px solid #C5A059;
+    border-right: 4px solid #C5A059;
+    background: rgba(197, 160, 89, 0.05);
+}
+
+/* Champagne Arrow Lists */
+.arrow-list {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+.arrow-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    color: #4A4E69;
+    line-height: 1.7;
+}
+
+.arrow-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #C5A059;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+    
+    .about-hero-image img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    
+    .about-hero-text h1 {
+        font-size: 2rem;
+    }
+    
+    .intro-text {
+        font-size: 1.1rem;
+    }
+    
+    .pullquote {
+        font-size: 1.15rem;
+        padding: 1.5rem;
+    }
+}
+
 /* === FOOTER === */
 footer {
     background: #4A4E69;
