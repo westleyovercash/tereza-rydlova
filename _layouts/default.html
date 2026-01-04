@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
+    
+    <!-- Social Share Tags -->
+    <meta property="og:title" content="Tereza Rýdlová - Mentální koučink">
+    <meta property="og:description" content="Mentální koučink pro sportovce a profesionály">
+    <meta property="og:image" content="https://terezarydlova.cz/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://terezarydlova.cz">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://terezarydlova.cz/assets/images/og-image.jpg">
+    
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
@@ -18,13 +28,11 @@
             </nav>
         </div>
     </header>
-
     <main>
         <div class="container">
             {{ content }}
         </div>
     </main>
-
     <footer>
         <div class="container">
             <p>&copy; {{ 'now' | date: "%Y" }} Tereza Rýdlová. Všechna práva vyhrazena.</p>
