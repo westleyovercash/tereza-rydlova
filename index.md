@@ -5,15 +5,23 @@ title: Domů
 
 <section class="hero">
   <h1>Výkon začíná v hlavě.</h1>
-  <p class="hero-text">Tělo můžete posouvat na hranici možností a dovednosti opakovat tak dlouho, až se stanou automatické. Ve chvíli, kdy se zvýší tlak a rozhoduje se o výsledku, rozhoduje mysl. Pracuji se sportovci, lídry a profesionály na mentálních procesech, které určují, jestli se jejich práce skutečně promítne do výkonu.</p>
+  <p class="hero-text">Tělo můžete posouvat na hranici možností a dovednosti opakovat tak dlouho, až se stanou automatické. Ve chvíli, kdy se zvýší tlak a rozhoduje se o výsledku, rozhoduje mysl.</p>
+  <p class="hero-text">Pracuji se sportovci, lídry a profesionály na mentálních procesech, které určují, jestli se jejich práce skutečně promítne do výkonu.</p>
   <a href="/kontakt" class="cta-button">Začít spolupráci</a>
 </section>
 
-<section class="content-section">
-  <h2>S kým pracuji</h2>
-  <p>Někteří klienti se připravují na soutěžní sezónu. Jiní vedou tým a nesou odpovědnost za rozhodování v náročných situacích. Další podávají dobrý výkon, ale vnímají, že část jejich potenciálu se do výsledku zatím plně nepromítá.</p>
-  <p>Hledají stabilitu v okamžicích, kdy rostou nároky. Chtějí zůstat přítomní i ve chvíli chyby. Chtějí, aby se jejich schopnosti objevily právě tehdy, kdy na nich záleží.</p>
-  <p>Mentální procesy je možné trénovat cíleně a s podobnou pečlivostí, jaká se věnuje fyzické přípravě. Tam naše práce začíná.</p>
+<section class="content-section about-with-photo">
+  <div class="about-content">
+    <div class="about-text">
+      <h2>S kým pracuji</h2>
+      <p>Někteří klienti se připravují na soutěžní sezónu. Jiní vedou tým a nesou odpovědnost za rozhodování v náročných situacích. Další podávají dobrý výkon, ale vnímají, že část jejich potenciálu se do výsledku zatím plně nepromítá.</p>
+      <p>Hledají stabilitu v okamžicích, kdy rostou nároky. Chtějí zůstat přítomní i ve chvíli chyby. Chtějí, aby se jejich schopnosti objevily právě tehdy, kdy na nich záleží.</p>
+      <p>Mentální procesy je možné trénovat cíleně a s podobnou pečlivostí, jaká se věnuje fyzické přípravě. Tam naše práce začíná.</p>
+    </div>
+    <div class="about-image">
+      <img src="/assets/images/tereza_rydlova.jpg" alt="Tereza Rýdlová">
+    </div>
+  </div>
 </section>
 
 <section class="how-it-works">
