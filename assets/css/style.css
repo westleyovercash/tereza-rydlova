@@ -87,8 +87,12 @@ main {
     font-size: 1.1rem;
     color: #4A4E69;
     max-width: 800px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
     line-height: 1.8;
+}
+
+.hero-text:last-of-type {
+    margin-bottom: 2rem;
 }
 
 /* === CONTENT SECTIONS === */
@@ -110,7 +114,7 @@ main {
 .content-section h2 {
     font-size: 1.8rem;
     color: #4A4E69;
-    margin: 2rem 0 1.5rem;
+    margin: 0 0 1.5rem 0;
     font-weight: 600;
 }
 
@@ -129,6 +133,26 @@ main {
 .content-section li {
     margin-bottom: 0.5rem;
     line-height: 1.7;
+}
+
+/* === ABOUT WITH PHOTO === */
+.about-with-photo .about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    border: 4px solid #C5A059;
 }
 
 /* === CLOSING SECTION === */
@@ -207,7 +231,7 @@ main {
     right: 10px;
     font-size: 7rem;
     font-weight: 900;
-    color: rgba(197, 160, 89, 0.28);
+    color: rgba(197, 160, 89, 0.38);
     line-height: 1;
     z-index: 0;
     user-select: none;
@@ -226,7 +250,7 @@ main {
 .step p {
     color: #4A4E69;
     line-height: 1.7;
-    font-size: 0.95rem;
+    font-size: 1rem;
     position: relative;
     z-index: 1;
 }
@@ -369,5 +393,18 @@ footer p {
     
     .testimonial {
         padding: 2rem;
+    }
+    
+    .about-with-photo .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .about-image {
+        order: -1;
+    }
+    
+    .about-image img {
+        max-width: 200px;
     }
 }
