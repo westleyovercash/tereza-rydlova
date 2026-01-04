@@ -5,15 +5,17 @@ title: Domů
 
 <section class="hero">
   <h1>Výkon začíná v hlavě.</h1>
-  <p class="hero-text">Tělo můžete trénovat až na hranici svých možností. Dovednosti můžete pilovat tak dlouho, až se stanou automatickými. Ale ve chvíli, kdy na tom skutečně záleží—kdy přichází tlak—rozhoduje mysl o tom, zda se veškerá práce promění ve skutečný výsledek.</p>
+  <p class="hero-text">Tělo můžete posouvat na hranici možností a dovednosti opakovat tak dlouho, až se stanou automatické. Ve chvíli, kdy se zvýší tlak a rozhoduje se o výsledku, nakonec o všem rozhoduje mysl. Tehdy se ukáže, jestli se vaše práce skutečně promítne do výkonu.</p>
+  <p class="hero-text">Pracuji se sportovci, lídry a profesionály, jejichž výkon je vidět a je pod drobnohledem okolí. Každý z nich přichází z jiného prostředí, ale zkušenost bývá podobná. Někdy mysl schopnosti podpoří, jindy je spíš tiše brzdí.</p>
+  <p class="hero-text">Nejde o větší úsilí ani o silnější motivaci. Mentální procesy je možné trénovat cíleně a s podobnou pečlivostí, jaká se věnuje fyzické přípravě.</p>
   <a href="/kontakt" class="cta-button">Začít spolupráci</a>
 </section>
 
 <section class="content-section">
   <h2>S kým pracuji</h2>
-  <p>Možná se připravujete na soutěž. Možná vedete tým a činíte rozhodnutí pod tlakem. Možná podáváte dobré výkony, ale víte, že něco necháváte „na stole".</p>
-  <p>Sportovci, manažeři, profesionálové ve vysoce náročných prostředích—konkrétní situace se liší, ale výzva je stejná: vaše mysl buď podporuje vaše schopnosti, nebo je omezuje.</p>
-  <p>Nejde o to pracovat víc nebo chtít víc. Jde o mentální procesy, které je možné systematicky rozvíjet.</p>
+  <p>Někteří klienti se připravují na soutěžní sezónu. Jiní vedou tým a nesou odpovědnost za rozhodování v náročných situacích. Další podávají dobrý výkon, ale vnímají, že část jejich potenciálu se do výsledku zatím plně nepromítá.</p>
+  <p>Hledají stabilitu v okamžicích, kdy rostou nároky. Chtějí zůstat přítomní i ve chvíli chyby. Chtějí, aby se jejich schopnosti objevily právě tehdy, kdy na nich záleží.</p>
+  <p>Tam naše práce začíná.</p>
 </section>
 
 <section class="how-it-works">
