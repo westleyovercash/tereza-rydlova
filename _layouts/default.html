@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | Tereza Rýdlová, certifikovaná koučka</title>
+  <title>{{ page.title }} | Tereza Rýdlová</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
 
   <header>
-    <nav class="navbar">
-      <div class="logo">TEREZA RÝDLOVÁ</div>
-      <ul class="nav-links">
-        <li><a href="{{ '/' | relative_url }}">Domů</a></li>
-        <li><a href="{{ '/about' | relative_url }}">O mně</a></li>
-        <li><a href="{{ '/sluzby' | relative_url }}">Služby</a></li>
-        <li><a href="{{ '/kontakt' | relative_url }}">Kontakt</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">TEREZA RÝDLOVÁ</div>
+        <ul class="nav-links">
+          <li><a href="{{ '/' | relative_url }}">Domů</a></li>
+          <li><a href="{{ '/o-mne' | relative_url }}">O mně</a></li>
+          <li><a href="{{ '/sluzby' | relative_url }}">Služby</a></li>
+          <li><a href="{{ '/kontakt' | relative_url }}">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -25,10 +27,12 @@
   </main>
 
   <footer>
-    <div class="footer-content">
-      <p><strong>Tereza Rýdlová, certifikovaná koučka</strong> | Fakulta tělesné výchovy a sportu, Univerzita Karlova</p>
-      <p>Dodržuji globální etický kodex EMCC</p>
-      <p>&copy; {{ "now" | date: "%Y" }} Tereza Rýdlová</p>
+    <div class="container">
+      <div class="footer-content">
+        <p><strong>Tereza Rýdlová</strong> | Fakulta tělesné výchovy a sportu, Univerzita Karlova</p>
+        <p>Dodržuji globální etický kodex EMCC</p>
+        <p>&copy; {{ "now" | date: "%Y" }} Tereza Rýdlová</p>
+      </div>
     </div>
   </footer>
 
