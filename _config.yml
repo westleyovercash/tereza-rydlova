@@ -1,14 +1,9 @@
-title: Tereza Rýdlová | certifikovaná koučka 
+title: Tereza Rýdlová | certifikovaná koučka
 email: tereza@rydlova.cz
 description: Výkon začíná v hlavě. Mentální trénink pro sportovce a profesionály.
-baseurl: "" 
 url: "https://www.terezarydlova.cz"
+baseurl: ""
 
+theme: []
 plugins:
   - jekyll-feed
-
-colors:
-  navy: "#1B263B"
-  taupe: "#8B7355"
-  gold: "#D4AF37"
-  off_white: "#F8F9FA"
