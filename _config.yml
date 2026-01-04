@@ -1,0 +1,25 @@
+title: Tereza Rýdlová
+description: Mentální koučink pro sportovce a profesionály
+url: "https://terezarydlova.cz"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Navigation
+navigation:
+  - title: Domů
+    url: /
+  - title: O mně
+    url: /omne
+  - title: Služby
+    url: /sluzby
+  - title: Kontakt
+    url: /kontakt
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
