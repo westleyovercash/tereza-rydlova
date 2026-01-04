@@ -1,222 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root {
-  --charcoal: #1B263B;
-  --taupe: #8B7355;
-  --gold: #D4AF37;
-  --off-white: #F8F9FA; 
+  --pearl-light: #F8F9FA;
+  --pearl-shimmer: #E9ECEF;
+  --champagne: #C5A059; /* Muted Champagne Gold */
+  --slate: #4A4E69;     /* Soft neutral for text depth */
+  --charcoal: #22223B;  /* Deep neutral for high contrast text */
+  --glass: rgba(255, 255, 255, 0.7);
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--off-white);
+  background-color: var(--pearl-light);
   color: var(--charcoal);
   margin: 0;
-  line-height: 1.8;
+  line-height: 1.9;
   letter-spacing: 0.03em;
-  overflow-x: hidden;
 }
 
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-h2, h3, .logo {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-main, .navbar {
-  max-width: 1100px; 
-  margin: 0 auto;    
-  padding: 0 20px;   
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3.5rem 20px;
-  background: transparent;
-  box-sizing: border-box;
-}
-
-.logo {
-  font-size: 1rem;
-  white-space: nowrap;
-}
-
-.nav-links { 
-  display: flex; 
-  list-style: none; 
-  gap: 2.5rem; 
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links a { 
-  text-decoration: none; 
-  color: var(--charcoal); 
-  font-weight: 500; 
-  text-transform: uppercase; 
-  font-size: 0.75rem; 
-  letter-spacing: 2px;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: var(--gold);
-}
-
-/* Updated Hero with Radial Gradient for Depth */
+/* Luminous Pearlescent Hero */
 .hero { 
-  padding: 120px 10%; 
-  background: radial-gradient(circle at center, #24344d 0%, #1B263B 100%); 
-  color: white; 
+  padding: 140px 10%; 
+  background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 50%, #DEE2E6 100%);
+  color: var(--charcoal); 
   text-align: center;
-  border-radius: 20px;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
 .hero h1 { 
-  font-size: 3.5rem; 
+  font-size: 3.8rem; 
   margin-bottom: 2rem; 
-  text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  color: var(--charcoal);
   letter-spacing: -1px;
 }
 
 .hero p { 
-  font-weight: 300; 
-  font-size: 1.1rem; 
-  max-width: 800px; 
+  font-weight: 400; 
+  font-size: 1.15rem; 
+  max-width: 750px; 
   margin: 0 auto; 
-  opacity: 0.9; 
+  color: var(--slate);
 }
 
-.btn {
-  background: var(--gold);
-  color: white;
-  padding: 1.2rem 3rem;
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 20px;
+}
+
+.logo, .nav-links a {
+  color: var(--charcoal);
   text-decoration: none;
-  display: inline-block;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  text-transform: uppercase;
+  font-size: 0.75rem;
   letter-spacing: 2px;
-  margin-top: 2rem;
-  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-.btn:hover { 
-  background: var(--taupe); 
-  transform: translateY(-3px); 
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+/* Glassmorphic Step Cards */
+.steps-wrapper {
+  background: white; /* Clean break from hero */
+  padding: 100px 0;
 }
 
 .steps-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 80px 0;
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* Updated Step Cards with Hover Animation */
 .step-card {
-  background: white;
-  padding: 40px 25px;
-  border-radius: 12px;
-  position: relative;
+  background: var(--glass);
+  backdrop-filter: blur(10px);
+  padding: 45px 25px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.5);
   box-shadow: 0 10px 30px rgba(0,0,0,0.03);
-  display: flex;
-  flex-direction: column;
-  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s ease;
 }
 
 .step-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  transform: translateY(-8px);
+  background: white;
+  box-shadow: 0 20px 40px rgba(197, 160, 89, 0.1); /* Champagne glow */
 }
-
-.step-number {
-  position: absolute;
-  top: -5px;
-  left: 15px;
-  font-size: 5rem;
-  font-weight: 600;
-  color: rgba(184, 149, 106, 0.08); 
-  z-index: 1;
-}
-
-.step-content { position: relative; z-index: 2; }
 
 .step-content h3 { 
-  color: var(--gold); 
+  color: var(--champagne); 
   font-size: 0.8rem;
-  margin-bottom: 1.2rem; 
+  margin-bottom: 1rem; 
 }
 
-.step-content p { font-weight: 300; font-size: 0.85rem; line-height: 1.6; }
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  margin: 50px 0;
-}
-
-.service-item {
-  background: white;
-  padding: 35px;
-  border-left: 5px solid var(--gold);
+.btn {
+  background: var(--champagne);
+  color: white;
+  padding: 1.2rem 3.5rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.02);
-  transition: transform 0.3s ease;
+  letter-spacing: 2px;
+  margin-top: 3rem;
+  transition: all 0.3s ease;
 }
 
-.service-item:hover {
-  transform: translateX(10px);
+.btn:hover {
+  background: var(--charcoal);
+  transform: scale(1.02);
+}
+
+.testimonial-section {
+  background-color: #F1F3F5; /* Softest neutral possible */
+  padding: 100px 10%;
 }
 
 footer {
   background: var(--charcoal);
   color: white;
-  padding: 4rem 20px;
+  padding: 5rem 20px;
   text-align: center;
-  margin-top: 100px;
-}
-
-.footer-content p {
-  margin: 0.5rem 0;
-  font-size: 0.85rem;
-  opacity: 0.9;
-  letter-spacing: 0.5px;
-}
-
-.footer-content strong {
-  color: white;
-  font-weight: 600;
-}
-
-@media (max-width: 1024px) {
-  .steps-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar { flex-direction: column; padding: 2rem 20px; }
-  .nav-links { gap: 1.2rem; margin-top: 2.5rem; flex-wrap: wrap; justify-content: center; }
-  .hero h1 { font-size: 2.4rem; }
-  .steps-container {
-    grid-template-columns: 1fr;
-  }
 }
