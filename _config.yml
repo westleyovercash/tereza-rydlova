@@ -1,7 +1,7 @@
-title: Tereza Rýdlová Coaching
+title: Tereza Rýdlová | certifikovaná koučka 
 email: [email]
 description: Výkon začíná v hlavě. Mentální trénink pro sportovce a profesionály.
-baseurl: "/tereza-rydlova" 
+baseurl: ""
 url: "https://www.terezarydlova.cz"
 
 # Build settings
@@ -9,10 +9,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Custom Colors for Reference
+# Custom Colors for Reference (Updated to Modern Navy Palette)
 colors:
-  charcoal: "#2C2C2C"
+  navy: "#1B263B"
   taupe: "#8B7355"
-  forest: "#4A5D4F"
-  gold: "#B8956A"
-  off_white: "#F5F3F0"
+  gold: "#D4AF37"
+  off_white: "#F8F9FA"
