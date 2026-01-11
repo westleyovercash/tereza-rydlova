@@ -10,18 +10,18 @@ title: O mně
     </div>
     <div class="about-hero-text">
       <h1>O mně</h1>
-      <p class="intro-text">Pracuji se sportovci, lídry a profesionály na mentálních procesech, které formují výkon v okamžicích, kdy na něm skutečně záleží.</p>
+      <p class="intro-text">Pracuji s lidmi na všech úrovních, od vrcholových lidí přes sportovce, lídry a jiné profesionály</p>
     </div>
   </div>
 </section>
 
 <section class="content-section">
   <h2>Moje profesní cesta</h2>
-  <p>Vyrůstala jsem ve sportovním prostředí. Řadu let jsem pracovala se sportovci na fyzické přípravě, kondici a pohybu. Postupně jsem si však všimla, že rozhodující momenty nejsou jen o fyzické připravenosti. Byly o tom, co se odehrává v hlavě.</p>
+  <p>Vyrůstala jsem ve sportovním prostředí. Řadu let jsem pracovala se sportovci na fyzické přípravě, kondici a pohybu. Postupně jsem si však uvědomila, že rozhodující momenty nejsou o fyzické připravenosti, ale i o mentální zdatnosti.</p>
   
-  <p>Zda člověk zůstane stabilní pod tlakem. Zda dokáže pracovat s chybami místo zhroucení výkonu. Zda se dokáže znovu vrátit k výkonu po narušení.</p>
+  <p>Zda člověk zůstane stabilní pod tlakem. Zda dokáže pracovat s chybami a rozvíjet se místo degradace svého výkony. Zda se dokáže znovu vrátit k plněmu výkonu.</p>
   
-  <p>Tyto výzvy nejsou omezené na sport. Objevují se všude tam, kde na výkonu záleží—v soutěži, ve vedení lidí, v náročném profesním prostředí.</p>
+  <p>Tyto výzvy nejsou omezené jen na sport. Objevují se všude tam, kde na výkonu a pevné myslí záleží—v soutěži, ve vedení lidí, v náročném profesním prostředí, v životě.</p>
   
   <p class="pullquote">Mentální příprava nenahradila technické dovednosti. Doplnila je.</p>
   
