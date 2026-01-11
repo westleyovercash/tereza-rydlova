@@ -10,7 +10,7 @@ title: O mně
     </div>
     <div class="about-hero-text">
       <h1>O mně</h1>
-      <p class="intro-text">Pracuji s lidmi na všech úrovních, od vrcholových lidí přes sportovce, lídry a jiné profesionály</p>
+      <p class="intro-text">Pracuji s lidmi na všech úrovních od normální lidí přes sportovce, lídry a jiné profesionály.</p>
     </div>
   </div>
 </section>
@@ -19,9 +19,9 @@ title: O mně
   <h2>Moje profesní cesta</h2>
   <p>Vyrůstala jsem ve sportovním prostředí. Řadu let jsem pracovala se sportovci na fyzické přípravě, kondici a pohybu. Postupně jsem si však uvědomila, že rozhodující momenty nejsou o fyzické připravenosti, ale i o mentální zdatnosti.</p>
   
-  <p>Zda člověk zůstane stabilní pod tlakem. Zda dokáže pracovat s chybami a rozvíjet se místo degradace svého výkony. Zda se dokáže znovu vrátit k plněmu výkonu.</p>
+  <p>Zda člověk zůstane stabilní pod tlakem. Zda dokáže pracovat s chybami a rozvíjet se místo degradace svého výkony. Zda se dokáže znovu vrátit k plnému výkonu.</p>
   
-  <p>Tyto výzvy nejsou omezené jen na sport. Objevují se všude tam, kde na výkonu a pevné myslí záleží—v soutěži, ve vedení lidí, v náročném profesním prostředí, v životě.</p>
+  <p>Tyto výzvy nejsou omezené jen na sport. Objevují se všude tam, kde na výkonu a pevné mysli záleží—v soutěži, ve vedení lidí, v náročném profesním prostředí, v životě.</p>
   
   <p class="pullquote">Mentální příprava nenahradila technické dovednosti. Doplnila je.</p>
   
