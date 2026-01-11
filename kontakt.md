@@ -21,21 +21,23 @@ title: Kontakt
     
     <div class="contact-item">
       <strong>Adresa:</strong><br>
-      1234/12 ulice<br>
-      130 00 Praha 3 - Vinohrady
+      Budova správy kolejí VŠE<br>
+      Jeseniova 2769/208<br>
+      Praha 3
     </div>
     
     <p class="response-note">Obvykle odpovídám do 24 až 48 hodin. Dávám přednost promyšlené komunikaci před rychlými reakcemi.</p>
   </div>
   
   <div class="contact-map">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.6938573551845!2d14.450216!3d50.080753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b948fd7dd8c0b%3A0x400af0f66158a40!2s%C5%BDi%C5%BEkov%20Television%20Tower!5e0!3m2!1sen!2scz!4v1234567890"
-      width="100%" 
-      height="300" 
-      style="border:0; filter: grayscale(100%);" 
-      allowfullscreen="" 
-      loading="lazy">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.7456558577546!2d14.483263699999998!3d50.09104869999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9346818f083d%3A0xd98b23fe9d7eee69!2zU3Byw6F2YSDDusSNZWxvdsO9Y2ggemHFmcOtemVuw60gVsWgRSB2IFByYXpl!5e0!3m2!1sen!2scz!4v1768139054778!5m2!1sen!2scz"
+      width="100%"
+      height="300"
+      style="border:0; filter: grayscale(100%);"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
     </iframe>
   </div>
 </section>
