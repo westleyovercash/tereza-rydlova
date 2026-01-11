@@ -30,15 +30,15 @@ title: Kontakt
   </div>
   
   <div class="contact-map">
-  <iframe
-    src="https://mapy.cz/zakladni?x=14.4832637&y=50.0910487&z=17&source=addr&id=11438843"
-    width="100%"
-    height="300"
-    style="border:0; filter: grayscale(100%);"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
+    <iframe
+      src="https://mapy.com/s/pefatecazu"
+      width="100%"
+      height="300"
+      style="border:0; filter: grayscale(100%);"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
 </section>
 
 <section class="approach-section">
