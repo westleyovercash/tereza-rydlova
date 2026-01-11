@@ -30,16 +30,15 @@ title: Kontakt
   </div>
   
   <div class="contact-map">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.7456558577546!2d14.483263699999998!3d50.09104869999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9346818f083d%3A0xd98b23fe9d7eee69!2zU3Byw6F2YSDDusSNZWxvdsO9Y2ggemHFmcOtemVuw60gVsWgRSB2IFByYXpl!5e0!3m2!1sen!2scz!4v1768139054778!5m2!1sen!2scz"
-      width="100%"
-      height="300"
-      style="border:0; filter: grayscale(100%);"
-      allowfullscreen
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
+  <iframe
+    src="https://mapy.cz/zakladni?x=14.4832637&y=50.0910487&z=17&source=addr&id=11438843"
+    width="100%"
+    height="300"
+    style="border:0; filter: grayscale(100%);"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
 </section>
 
 <section class="approach-section">
