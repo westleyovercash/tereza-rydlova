@@ -7,7 +7,7 @@ title: Kontakt
   <h1>Kontakt</h1>
   
   <h2>Začněme</h2>
-  <p>Pokud jste si všimli, že váš výkon omezuje spíš to, co se odehrává v hlavě, než vaše dovednosti nebo příprava, je vhodný čas podívat se na to systematicky.</p>
+  <p>Pokud jste si všimli, že váš výkon omezuje spíš to, co se odehrává v hlavě, než vaše dovednosti nebo příprava, je vhodný čas podívat se na to s nadhledem a systematicky.</p>
 </section>
 
 <section class="contact-card">
