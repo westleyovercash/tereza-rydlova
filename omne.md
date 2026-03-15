@@ -2,7 +2,6 @@
 layout: default
 title: O mně
 ---
-
 <section class="about-hero">
   <div class="about-hero-content">
     <div class="about-hero-image">
@@ -14,7 +13,6 @@ title: O mně
     </div>
   </div>
 </section>
-
 <section class="content-section">
   <h2>Moje profesní cesta</h2>
   <p>Vyrůstala jsem ve sportovním prostředí. Řadu let jsem pracovala se sportovci na fyzické přípravě, kondici a pohybu. Postupně jsem si však uvědomila, že rozhodující momenty nejsou o fyzické připravenosti, ale i o mentální zdatnosti.</p>
@@ -29,7 +27,6 @@ title: O mně
   
   <p>Můj přístup vychází z dlouholeté tréninkové praxe, performance coachingu, principů respektující komunikace a silného etického rámce. Cílem není krátkodobá motivace. Cílem je změna chování, která obstojí ve chvílích, kdy jsou sázky vysoké.</p>
 </section>
-
 <section class="approach-section">
   <h2>Jak přemýšlím o výkonu</h2>
   <p>Nepracuji s univerzálními radami ani inspiračními slogany.</p>
@@ -44,7 +41,6 @@ title: O mně
   
   <p>Nezůstáváme v abstrakci. Pracujeme přímo se situacemi, které rozhodují o výsledku.</p>
 </section>
-
 <section class="content-section">
   <h2>Jak pracuji s klienty</h2>
   <p>Pomáhám klientům:</p>
@@ -56,6 +52,17 @@ title: O mně
   </ul>
   
   <p>Práce je praktická. Je vždy propojená s vaším skutečným prostředím—ať už jde o trénink a soutěž, nebo specifické nároky vaší profese.</p>
-  
+
   <p>Nejde o terapii ani o poradenství. Jde o profesionální partnerství zaměřené na výkon, uvědomění a odpovědnost.</p>
+</section>
+<section class="content-section">
+  <h2>Vzdělání a kvalifikace</h2>
+  <ul class="arrow-list">
+    <li>2004 – Instruktor fitness, kondiční trenér (akreditace MŠMT)</li>
+    <li>2013–2018 – Trenérská škola, UK FTVS – Univerzita Karlova</li>
+    <li>2018 – Trenér I. třídy</li>
+    <li>2024 – Koučovací výcvik (akreditace MŠMT)</li>
+    <li>2025 – Vzpírání, trenérská licence C</li>
+    <li>2026 – ThetaHealing Basic DNA</li>
+  </ul>
 </section>
