@@ -9,7 +9,7 @@ title: O mně
     </div>
     <div class="about-hero-text">
       <h1>O mně</h1>
-      <p class="intro-text">Spolupracuji s lidmi všech profesí – od profesionálních sportovců a lídrů po lidi z náročného korporátního prostředí.</p>
+      <p class="intro-text">Spolupracuji s lidmi všech profesí – od profesionálních sportovců a lídrů po hobby sportovce a lidi mimo sportovní prostředí.</p>
     </div>
   </div>
 </section>
